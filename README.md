@@ -16,12 +16,12 @@ A nice theme for Typora, inspired by [Purple Theme](https://github.com/hliu202/t
 
 > This theme has been tested on Windows 11 and Windows 10.
 
-![preview1](/media/theme/Liquid/preview1.png)
+![preview1](README.assets/preview1.png)
 
-![preview2](/media/theme/Liquid/preview2.png)
+![preview2](README.assets/preview2.png)
 
-![preview3](/media/theme/Liquid/preview3.png)
+![preview3](README.assets/preview3.png)
 
-![preview4](/media/theme/Liquid/preview4.png)
+![preview4](README.assets/preview4.png)
 
-![preview5](/media/theme/Liquid/preview5.png)
+![preview5](README.assets/preview5.png)
