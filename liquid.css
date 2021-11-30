@@ -2,15 +2,16 @@
   --title-color: #6872fd;
   --text-color: #353535;
   --light-text-color: #666666;
-  --link-color: #3ecaba;
+  --link-color: #55d3e4;
   --code-color: #937fce;
 
   --shadow-color: rgba(128, 107, 192, 0.1);
-  --purple-light: rgba(116, 95, 181, 0.3);
+  --blue-light: #559CE4;
+  --Mica-light: #f3f3f3;
   --border: rgb(179, 179, 179);
   --shadow: 0.4rem 0.8rem 1.6rem var(--shadow-color);
 
-  --side-bar-bg-color: #c2c2c2;
+  --side-bar-bg-color: var(--Mica-light);
   --control-text-color: var(var(--light-text-color));
   --active-file-text-color: var(--title-color);
   --active-file-bg-color: var(--shadow-color);
@@ -137,27 +138,27 @@ h1:after {
   display: block;
   margin: 0.2em auto 0;
   width: 6rem;
-  height: 2px;
+  height: 2.2px;
   border-bottom: 2px solid var(--title-color);
 }
 
 h2 {
   padding-left: 0.4em;
-  font-size: 1.75em;
+  font-size: 2.0em;
   border-left: 0.4em solid var(--title-color);
   border-bottom: 1px solid var(--title-color);
 }
 h3 {
-  font-size: 1.6em;
+  font-size: 1.8em;
 }
 h4 {
-  font-size: 1.35em;
+  font-size: 1.6em;
 }
 h5 {
-  font-size: 1.2em;
+  font-size: 1.4em;
 }
 h6 {
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
 
 p,
@@ -208,7 +209,7 @@ ul li {
 
 /* 引用 */
 blockquote {
-  border-left: 0.2em solid var(--purple-light);
+  border-left: 0.2em solid var(--blue-light);
   padding-left: 1em;
   color: var(--light-text-color);
   font-family: var(--base-font);
@@ -240,6 +241,21 @@ thead {
 #write strong {
   padding: 0 4px;
   font-weight: bold;
+  background-color: var(--Mica-light);
+  border-radius: 20px 20px 20px 20px;
+  padding: 2px 4px;
+  margin: 0 2px;
+  color: #000000;
+}
+
+/* 斜体 */
+#write em {
+  padding: 0 4px;
+  background-color: var(--Mica-light);
+  border-radius: 20px 20px 20px 20px;
+  padding: 2px 4px;
+  margin: 0 2px;
+  color: #000000;
 }
 
 /* inline code */
@@ -248,9 +264,8 @@ tt {
   padding: 2px 4px;
   border-radius: 20px 20px 20px 20px;
   font-family: var(--monospace);
-  font-size: 0.9rem;
   color: var(--code-color);
-  background-color: #f4f2f9;
+  background-color: var(--Mica-light);
   margin: 0 2px;
 }
 
@@ -261,11 +276,11 @@ tt {
 
 /* 高亮highlight. */
 #write mark {
-  background-color: #f9f2f4;
+  background-color: #FDEEBB;
   border-radius: 20px 20px 20px 20px;
   padding: 2px 4px;
   margin: 0 2px;
-  color: #c7254e;
+  color: #e9781e;
 }
 
 #write del {
@@ -311,11 +326,40 @@ img[alt|="shadow"] {
   box-shadow: 0.4rem 0.8rem 1.6rem var(--shadow-color);
 }
 
+/* 目录 */
+#write .md-toc { 
+  background-color: #F7F9FC;
+  border-radius: 20px 20px 20px 20px;
+  padding: 2px 4px;
+  margin: 0 2px;
+}
+
 #write a.md-toc-inner {
-  line-height: 1.6;
+  line-height: 1.5;
   white-space: pre-line;
   border-bottom: none;
-  font-size: 0.9rem;
+  font-size: 1rem;
+}
+
+.md-toc-h1 {
+  display: none;
+}
+
+#write .md-toc-h2 .md-toc-inner {
+  font-size: 1.2rem;
+}
+
+#write .md-toc-h3 .md-toc-inner {
+  font-size: 1.1rem;
+}
+
+#write .md-toc-item:before {
+  display: block;
+  color: rgb(65, 131, 196);
+}
+
+#write .md-toc-h2 .md-toc-inner { 
+  font-weight: bold;
 }
 
 header,
@@ -346,9 +390,8 @@ pre {
 /* border and bg */
 .md-fences {
   border-radius: 20px 20px 20px 20px;
-  background: rgba(255, 255, 255, .7) !important;
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
+  background: #F1F3F7;
+  backdrop-filter: blur(15px);
 }
 #write pre.md-fences {
   display: block;
@@ -479,6 +522,7 @@ pre {
 #write .md-task-list-item.task-list-done > p > .md-link > a {
   opacity: 0.6;
 }
+
 
 /* sidebar */
 #typora-sidebar,
