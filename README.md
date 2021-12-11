@@ -1,9 +1,9 @@
 ---
 layout: theme
 title: Liquid
-category: fork
+category: theme
 homepage: https://github.com/Fentaniao/Liquid
-download: https://github.com/Fentaniao/Liquid/archive/master.zip
+download: https://github.com/Fentaniao/Liquid/releases
 built-in: false
 author: Fentaniao
 thumbnail: Liquid.png
@@ -16,6 +16,8 @@ A nice theme for Typora, inspired by [Purple Theme](https://github.com/hliu202/t
 
 > This theme has been tested on Windows 11 and Windows 10.
 
+## Screenshots
+
 ![preview1](/media/theme/liquid/preview1.png)
 
 ![preview2](/media/theme/liquid/preview2.png)
@@ -25,3 +27,10 @@ A nice theme for Typora, inspired by [Purple Theme](https://github.com/hliu202/t
 ![preview4](/media/theme/liquid/preview4.png)
 
 ![preview5](/media/theme/liquid/preview5.png)
+
+## How to install
+
+1. Download the **liquid.css** of the release from [Liquid repository](https://github.com/Fentaniao/Liquid/releases)
+2. Open Typora setting, in *Preferences*, click on *Appearance*, then on *Open Theme Folder*
+3. Paste **liquid.css** into the folder
+4. Select the Liquid theme from the *Themes* menu in Typora
