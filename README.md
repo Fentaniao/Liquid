@@ -12,16 +12,16 @@ typora-copy-images-to: ../../media/theme/Liquid
 ---
 # Liquid
 
-A nice theme for Typora, inspired by [Purple Theme](https://github.com/hliu202/typora-purple-theme) and [Microsoft Fluent Design](https://www.microsoft.com/design/fluent/#/). This theme provides outstanding visual effects design for Windows 11.
+A nice theme for Typora, inspired by [Purple Theme](https://github.com/hliu202/typora-purple-theme) and [Microsoft Fluent Design](https://www.microsoft.com/design/fluent/#/). This theme provides outstanding visual effects for Windows 11.
 
 > This theme has been tested on Windows 11 and Windows 10.
 
-![preview1](README.assets/preview1.png)
+![preview1](/media/theme/liquid/preview1.png)
 
-![preview2](README.assets/preview2.png)
+![preview2](/media/theme/liquid/preview2.png)
 
-![preview3](README.assets/preview3.png)
+![preview3](/media/theme/liquid/preview3.png)
 
-![preview4](README.assets/preview4.png)
+![preview4](/media/theme/liquid/preview4.png)
 
-![preview5](README.assets/preview5.png)
+![preview5](/media/theme/liquid/preview5.png)
