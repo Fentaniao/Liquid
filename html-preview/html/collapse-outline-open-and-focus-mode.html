@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Typora</title>
+    <link rel="stylesheet" href="../theme/default/lib/font-awesome.min.css">
+    <link rel="stylesheet" href="../theme/default/lib/bootstrap.css">
+    <link rel="stylesheet" href="../theme/default/codemirror.css">
+    <link rel="stylesheet" href="../theme/default/base.css">
+    <link rel="stylesheet" href="../theme/default/base-control.css">
+    <link rel="stylesheet" href="../../liquid.css">
+</head>
+
+<body class="pin-outline on-focus-mode">
+   <div class="stopselect dropmenu sidebar-menu active-tab-outline open" id="typora-sidebar" role="menu">
+    <div class="info-panel-tab-wrapper ty-tab-wrapper">
+        <div style="flex:1;"></div>
+        <div class="info-panel-tab" id="info-panel-tab-file">
+            <div class="info-panel-tab-title" data-localize="Files" data-lg="Front">Files</div>
+            <div class="info-panel-tab-border"></div>
+        </div>
+        <div style="flex:1;"></div>
+        <div class="info-panel-tab active" id="info-panel-tab-outline">
+            <div class="info-panel-tab-title" data-localize="Outline" data-lg="Front">Outline</div>
+            <div class="info-panel-tab-border"></div>
+        </div>
+        <div style="flex:1;"></div>
+    </div>
+    <div class="sidebar-osx-tab ty-tab-wrapper">
+        <div class="sidebar-tabs">
+            <div class="sidebar-tab-btn" id="switch-sidebar-icon" ty-hint="Switch to File List view"><span class="ty-icon ty-three-cells"></span></div>
+            <div class="sidebar-tab" id="sidepanel-segmented-input-files"></div>
+            <div class="sidebar-tab active" id="sidepanel-segmented-input-outline" data-localize="Outline" data-lg="Front">Outline</div>
+            <div class="sidebar-tab-btn" id="hide-sidebar-btn" ty-hint="Close sidebar"><span class="ty-icon ty-chevron-left"></span></div>
+          </div>
+    </div>
+    <div class="sidebar-content" id="sidebar-content">
+        <div id="outline-content" class="outline-content sidebar-content-content" data-after-content="Outline is Empty."><li class="outline-item-wrapper outline-h1 outline-item-open"><div class="outline-item"><span class="outline-expander"></span><span class="outline-label outline-active" data-ref="n0">Welcome</span></div><ul class="outline-children"><li class="outline-item-wrapper outline-h2 outline-item-signle"><div class="outline-item"><span class="outline-expander"></span><span class="outline-label" data-ref="n5">Live Preview</span></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h2 outline-item-signle"><div class="outline-item"><span class="outline-expander"></span><span class="outline-label" data-ref="n10">Markdown For Typora</span></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h2 outline-item-open"><div class="outline-item"><span class="outline-expander"></span><span class="outline-label" data-ref="n15">Useful Shortcuts</span></div><ul class="outline-children"><li class="outline-item-wrapper outline-h4 outline-item-signle"><div class="outline-item"><span class="outline-expander"></span><span class="outline-label" data-ref="n16">Writing Assist Key</span></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h4 outline-item-signle"><div class="outline-item"><span class="outline-expander"></span><span class="outline-label" data-ref="n19">Actions</span></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h4 outline-item-signle"><div class="outline-item"><span class="outline-expander"></span><span class="outline-label" data-ref="n57">Styles</span></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h4 outline-item-signle"><div class="outline-item"><span class="outline-expander"></span><span class="outline-label" data-ref="n60">Custom Shortcut Keys</span></div><ul class="outline-children"></ul></li></ul></li><li class="outline-item-wrapper outline-h2 outline-item-signle"><div class="outline-item"><span class="outline-expander"></span><span class="outline-label" data-ref="n63">Outline</span></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h2 outline-item-signle"><div class="outline-item"><span class="outline-expander"></span><span class="outline-label" data-ref="n66">Word Count</span></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h2 outline-item-signle"><div class="outline-item"><span class="outline-expander"></span><span class="outline-label" data-ref="n69">Quick Open</span></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h2 outline-item-signle"><div class="outline-item"><span class="outline-expander"></span><span class="outline-label" data-ref="n72">Copy</span></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h2 outline-item-signle"><div class="outline-item"><span class="outline-expander"></span><span class="outline-label" data-ref="n79">Smart Paste</span></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h2 outline-item-signle"><div class="outline-item"><span class="outline-expander"></span><span class="outline-label" data-ref="n84">Themes</span></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h2 outline-item-signle"><div class="outline-item"><span class="outline-expander"></span><span class="outline-label" data-ref="n87">Publish</span></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h2 outline-item-signle"><div class="outline-item"><span class="outline-expander"></span><span class="outline-label" data-ref="n90">Command Line Tool</span></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h2 outline-item-signle"><div class="outline-item"><span class="outline-expander"></span><span class="outline-label" data-ref="n96">More Useful Tips &amp; Documents</span></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h2 outline-item-signle"><div class="outline-item"><span class="outline-expander"></span><span class="outline-label" data-ref="n99">And More ?</span></div><ul class="outline-children"></ul></li></ul></li></div>
+        <div id="file-library" class="sidebar-content-content">
+            <div id="file-library-tree" class="no-selection" data-state="rendering" data-after-content="No Folder is Opened."></div>
+            <div id="file-library-list" class="no-selection" data-state="">
+                <div id="sidebar-loading-template" class="file-list-item">
+                    <div class="sidebar-loading">
+                        <div class="typora-quick-open-info"><span data-localize="Loading" data-lg="Front">Loading</span></div>
+                        <div class="typora-search-spinner"><div class="rect1"></div><div class="rect2"></div><div class="rect3"></div><div class="rect4"></div><div class="rect5"></div></div>
+                    </div>
+                    <div class="oversize-list-template">
+                        <div class="oversize-list-template-mark">
+                            <i class="fa fa-exclamation-triangle" aria-hidden="true"></i> 
+                        </div>
+                        <div data-localize="Selected folders contains too many files. \nPlease switch to <a id='switch-to-tree-on-oversize'>File Tree view</a> for better performance." data-lg="Front" data-lt="html">Selected folders contains too many files. 
+Please switch to <a id="switch-to-tree-on-oversize">File Tree view</a> for better performance.</div>
+                    </div>
+                </div>
+                <div id="file-library-list-children" data-after-content="No Files Available">
+
+                </div>
+            </div>
+            <script id="file-list-item-template" type="text/x--template">
+              <div class="file-list-item file-library-node file-library-file-node" data-path="" data-parent-path="" tabindex="-1">
+                    <div class="file-list-item-parent-loc">/</div>
+                    <div class="file-list-item-time"></div>
+                    <div class="file-list-item-file-name">
+                        <span class="file-list-item-file-name-part"></span><span class="file-list-item-file-ext-part"></span>
+                    </div>
+                    <div class="file-list-item-summary"></div>
+                </div> 
+            </script>
+
+            <script id="folder-menu-item-template" type="text/x--template">
+                <li role="presentation" class="folder-menu-item file-action-item folder-menu-groupm show" ty-hint-pos="right">
+                    <a role="menuitem" tabindex="-1" href="#"><i class="fa fa-folder-o"></i><span></span></a>
+                </li>
+            </script>
+
+            <script id="sidebar-loading-template" type="text/x--template">
+                <div class="sidebar-loading-template">
+                    
+                </div>
+            </script>
+
+            <script id="file-library-node-template" type="text/x--template">
+              <div class="file-library-node file-tree-node" data-path="" data-has-sub="false" tabindex="-1">
+                <div class="file-node-background">
+                    
+                </div>
+                <div class="file-node-content">
+                    <span class="file-node-open-state">
+                        <i class="fa fa-caret-right"></i><i class="fa fa-caret-down"></i>
+                    </span>
+                    <i class="file-node-icon"></i>
+                    <span class="file-node-title"><span class="file-node-title-name-part"></span><span class="file-node-title-ext-part"></span></span>
+                    <div class="file-tree-rename-div">
+                        <input class="file-tree-rename-input"></input>
+                    </div>
+                </div>
+                <div class="file-node-children">
+                </div>
+              </div>
+            </script>
+        </div>
+        <div id="file-info-content" class="sidebar-content-content" style="display:none">
+            <div id="file-info-meta-group">
+                <div id="file-info-last-saved-sub" class="file-info-item-subtitle">Saved just now</div>
+                <div class="file-info-title file-info-field ">
+                    <div id="file-info-filename" class="file-info-field-value">Utitled.md</div>
+                    <div id="file-info-filename-input-area" class="file-info-field-value" style="display:none;">
+                        <input id="file-info-filename-input"> <span id="file-info-filename-input-ext"></span></div>
+                </div>
+                <div class="file-info-field" id="file-info-file-path">
+                    <i class="fa fa-folder-o file-info-field-key"></i>
+                    <span class="file-info-field-value"></span>
+                </div>
+                <div class="file-info-field" id="file-info-last-modified">
+                    <i class="fa fa-clock-o file-info-field-key"></i>
+                    <span class="file-info-field-value"></span>
+                </div>
+            </div>
+
+            <div id="file-info-save-group">
+                <div class="file-info-item-subtitle">This is a New Document</div>
+                <div id="file-info-save-btn" class="file-info-save-btn">Save Now</div>
+            </div>
+
+            <div id="file-info-contet-group">
+                <div class="file-info-item-subtitle">Content</div>
+                <div class="file-info-field file-info-field-read"><span class="file-info-field-read-value" id="file-info-field-read-value-minutes">0</span>minutes</div>
+                <div class="file-info-field file-info-field-read"><span class="file-info-field-read-value" id="file-info-field-read-value-word">0</span>words</div>
+                <div class="file-info-field file-info-field-read"><span class="file-info-field-read-value" id="file-info-field-read-value-ch">0</span>characters</div>
+            </div>
+            
+        </div>
+        <div class="draggable-rect" style="flex: 1;"></div>
+    </div>
+    <div class="sidebar-footer no-selection" id="ty-sidebar-footer">
+        <div class="sidebar-footer-item footer-item-right footer-btn file-action-item not-empty-menu-group" id="sidebar-new-file-btn" ty-hint="New File">
+            <span class="ty-icon ty-add" style="position:relative;top:1px;"></span>
+        </div>
+        <div class="sidebar-footer-item footer-item-left footer-btn outline-action-item" id="unpin-outline-btn" ty-hint="Unpin Outline Panel">
+            <span>
+                <span class="ty-icon ty-export1"></span>
+                <span></span>
+            </span>
+        </div>
+        <div class="sidebar-footer-main-item" id="sidebar-menu-btn">
+            <span class="sidebar-footer-item">
+                <span class="sidebar-footer-main-item-label" id="sidebar-footer-main-item-label" data-localize="Open Folder..." data-lg="Front">Open Folder...</span>
+                 <span class="footer-btn">
+                    <span class="ty-icon ty-dots-v" aria-hidden="true"></span>
+                </span>
+            </span>
+            <ul id="sidebar-files-menu" class="dropdown-menu" role="menu" aria-labelledby="drop5" tabindex="-1">
+                <li role="presentation" class="menuitem-group-label file-action-item not-empty-menu-group">
+                    <span class="label" data-localize="Action" data-lg="Front">Action</span>
+                    
+                    <span class="ty-icon ty-delete-button" ty-hint="Close Sidebar Menu" id="close-sidebar-menu-btn"></span>
+                </li>
+                <li role="presentation" class="file-action-item not-empty-menu-group">
+                    <a role="menuitem" tabindex="-1" href="#" id="new-file-from-sidebar-menu" data-localize="New File" data-lg="Front">New File</a>
+                </li>
+                <li role="presentation" class="file-action-item not-empty-menu-group">
+                    <a role="menuitem" tabindex="-1" href="#" id="reveal-folder-from-sidebar-menu" data-localize="Reveal in Finder" data-lg="Front">Reveal in Finder</a>
+                </li>
+                <li role="presentation" class="file-action-item not-empty-menu-group">
+                    <a role="menuitem" tabindex="-1" href="#" id="open-folder-from-sidebar-menu" data-localize="Open Folder..." data-lg="Front">Open Folder...</a>
+                </li>
+                <li role="presentation" class="file-action-item not-empty-menu-group">
+                    <a role="menuitem" tabindex="-1" href="#" id="refresh-from-sidebar-menu" data-localize="Refresh Folder" data-lg="Front">Refresh Folder</a>
+                </li>
+
+                <li role="presentation" class="menuitem-group-label file-action-item file-sort-item file-action-item not-empty-menu-group">
+                    <span class="label" data-localize="Sort" data-lg="Front">Sort</span> 
+                    <span class="sort-button-area">
+                         <span>
+                            <span id="ty-group-by-folder-btn" class="ty-icon ty-package ty-side-sort-btn active" ty-hint="Group By Folder"></span>
+                        </span>
+                        <span>
+                            <span id="ty-sort-by-natural-btn" class="ty-icon ty-sort-by-natural ty-side-sort-btn ty-side-sort-btn2 active" ty-hint="Sort Naturally"></span>
+                            <span id="ty-sort-by-name-btn" class="ty-icon ty-sort-a ty-side-sort-btn ty-side-sort-btn2" ty-hint="Sort by Name"></span>
+                            <span id="ty-sort-by-date-btn" class="ty-icon ty-sort-t ty-side-sort-btn ty-side-sort-btn2" ty-hint="Sort by Modification Date"></span>
+                        </span>
+                    </span>
+                    <div class="clearfix"></div>
+                </li>
+
+                <li role="presentation" class="menuitem-group-label file-action-item folder-menu-group show">
+                    <span class="label" data-localize="Recent Locations" data-lg="Front">Recent Locations</span>
+                </li>
+                <li role="presentation" class="folder-menu-item folder-menu-group selected-folder-menu-item file-action-item show">
+                    <a role="menuitem" tabindex="-1" href="#"><i class="fa fa-folder-o"></i><span></span></a>
+                </li>
+
+                <li role="presentation" class="menuitem-group-label file-action-item empty-menu-group" id="folder-menu-item-after"><span class="label" data-localize="Location" data-lg="Front">Location</span></li>
+                 <li role="presentation" class="file-action-item empty-menu-group">
+                    <a role="menuitem" tabindex="-1" href="#" id="open-folder-from-sidebar-menu" data-localize="Open Folder..." data-lg="Front">Open Folder...</a>
+                </li>
+            </ul>
+        </div>
+        <!--div class="sidebar-footer-item footer-btn" show-os="mac" id="hide-sidebar-btn" ty-hint="Hide Sidebar">
+            <span>
+                <span class="ty-icon ty-chevron-left"></span>
+                <span></span>
+            </span>
+        </div-->
+        <div class="sidebar-footer-item footer-item-right footer-btn file-action-item not-empty-menu-group" id="switch-file-list-btn" ty-hint="Switch File List/Tree View">
+            <span class="switch-file-list-btn-to-list">
+                <span class="ty-icon ty-three-cells"></span>
+            </span>
+            <span class="switch-file-list-btn-to-tree">
+                <span class="ty-icon ty-file-tree"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+    <content>
+    <div id="write" contenteditable="true" spellcheck="true" class="enable-diagrams"><h3 cid="c1" mdtype="heading" class="md-end-block md-heading"><span md-inline="plain">Focus Mode</span></h3><p cid="c19" mdtype="paragraph"><span class="md-line md-end-block" cid="c20" mdtype="line"><span md-inline="plain">As I write, Typora try to render all elements as other output, for example </span><span md-inline="code" spellcheck="false"><span class="md-meta md-before">`` </span><code>for paragraph,</code><span class="md-meta md-after"> ``</span></span><span md-inline="plain"> for tables, `` for 1st level headings, so you could write styles for most styles like:</span></span></p><pre class="md-fences md-end-block" lang="css" contenteditable="false" cid="c21" mdtype="fences"><textarea id="for-fence-c21" style="display: none;"></textarea><div class="code-tooltip md-tooltip-hide" align="right" style="display: none;"><input class="mode" type="text" value="" placeholder="select a language"></div> <div class="CodeMirror cm-s-inner CodeMirror-wrap  " lang="css"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 4px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-hscrollbar" style="left: 0px; min-height: 18px;"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-vscrollbar" style="min-width: 18px;"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-scrollbar-filler"></div><div class="CodeMirror-gutter-filler"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; min-height: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines"><div style="position: relative; outline: none;"><div class="CodeMirror-measure"></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors" style="visibility: hidden;"><div class="CodeMirror-cursor" style="left: 4px; top: 0px; height: 22px;">&nbsp;</div></div><div class="CodeMirror-code" style=""><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><pre class=""><span style="padding-right: 0.1px;"><span class="cm-tag">p</span> {...}</span></pre></div><pre class=""><span style="padding-right: 0.1px;"><span class="cm-tag">h1</span> {...}</span></pre><pre class=""><span style="padding-right: 0.1px;"><span class="cm-tag">table</span> {...}</span></pre><pre class=""><span style="padding-right: 0.1px;"><span class="cm-tag">table</span> <span class="cm-tag">th</span> <span class="cm-tag">td</span> {...}</span></pre><pre class=""><span style="padding-right: 0.1px;"><span class="cm-tag">table</span> <span class="cm-tag">tr</span>:<span class="cm-variable-3">nth-child</span>(<span class="cm-number">2n</span>) <span class="cm-tag">td</span> {...}</span></pre><div class="" style="position: relative;"><pre class=""><span style="padding-right: 0.1px;">...</span></pre></div></div></div></div></div></div><div style="position: absolute; height: 30px; width: 1px; top: 0px;"></div><div class="CodeMirror-gutters" style="display: none; height: 132px;"></div></div></div></pre><p cid="c22" mdtype="paragraph"><span class="md-line md-end-block md-focus" cid="c23" mdtype="line"><span md-inline="plain">(</span><span md-inline="strong" class=""><span class="md-meta md-before">**</span><strong><span md-inline="plain">This line is ACTIVE under focus mode</span></strong><span class="md-meta md-after">**</span></span><span md-inline="plain" class="">) You could add </span><span md-inline="code" spellcheck="false"><span class="md-meta md-before">`</span><code>#write</code><span class="md-meta md-after">`</span></span><span md-inline="plain" class="md-expand"> as ancestor selector.</span></span></p><pre class="md-fences md-end-block" lang="css" contenteditable="false" cid="c24" mdtype="fences"><textarea id="for-fence-c24" style="display: none;"></textarea><div class="code-tooltip md-tooltip-hide" align="right" style="display: none;"><input class="mode" type="text" value="" placeholder="select a language"></div> <div class="CodeMirror cm-s-inner CodeMirror-wrap   " lang="css"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 4px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-hscrollbar" style="left: 0px; min-height: 18px;"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-vscrollbar" style="min-width: 18px;"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-scrollbar-filler"></div><div class="CodeMirror-gutter-filler"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; min-height: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines"><div style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors" style="visibility: hidden;"><div class="CodeMirror-cursor" style="left: 4px; top: 0px; height: 21.5625px;">&nbsp;</div></div><div class="CodeMirror-code" style=""><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><pre class=""><span style="padding-right: 0.1px;"><span class="cm-comment">/*this will only aplly to h4 in dialogs popped up by typora (just an example)*/</span></span></pre></div><pre class=""><span style="padding-right: 0.1px;"><span class="cm-qualifier">.dialog</span> <span class="cm-tag">h4</span> {...} </span></pre><pre class=""><span style="padding-right: 0.1px;"><span class="cm-invalidchar" title="\u200b">•</span></span></pre><pre class=""><span style="padding-right: 0.1px;"><span class="cm-comment">/*this will only apply to h4 inside writing area, which is generated after user input "#### " */</span></span></pre><div class="" style="position: relative;"><pre class=""><span style="padding-right: 0.1px;"><span class="cm-builtin">#write</span> <span class="cm-tag">h4</span> {...} </span></pre></div></div></div></div></div></div><div style="position: absolute; height: 30px; width: 1px; top: 0px;"></div><div class="CodeMirror-gutters" style="display: none; height: 154px;"></div></div></div></pre><p cid="c25" mdtype="paragraph"><span class="md-line md-end-block" cid="c26" mdtype="line"><span md-inline="plain">Aslo, all block elements has a </span><span md-inline="code" spellcheck="false"><span class="md-meta md-before">`</span><code>mdtype</code><span class="md-meta md-after">`</span></span><span md-inline="plain"> attribute. For example, you could also select headings by selector </span><span md-inline="code" spellcheck="false"><span class="md-meta md-before">`</span><code>[mdtype="heading"]</code><span class="md-meta md-after">`</span></span><span md-inline="plain">. Possible type includes </span><span md-inline="code" spellcheck="false"><span class="md-meta md-before">`</span><code>paragraph</code><span class="md-meta md-after">`</span></span><span md-inline="plain">, </span><span md-inline="code" spellcheck="false"><span class="md-meta md-before">`</span><code>heading</code><span class="md-meta md-after">`</span></span><span md-inline="plain">, </span><span md-inline="code" spellcheck="false"><span class="md-meta md-before">`</span><code>blockquote</code><span class="md-meta md-after">`</span></span><span md-inline="plain">, </span><span md-inline="code" spellcheck="false" class=""><span class="md-meta md-before">`</span><code>fences</code><span class="md-meta md-after">`</span></span><span md-inline="plain">, </span><span md-inline="code" spellcheck="false"><span class="md-meta md-before">`</span><code>hr</code><span class="md-meta md-after">`</span></span><span md-inline="plain">, </span><span md-inline="code" spellcheck="false"><span class="md-meta md-before">`</span><code>def_link</code><span class="md-meta md-after">`</span></span><span md-inline="plain">, </span><span md-inline="code" spellcheck="false"><span class="md-meta md-before">`</span><code>def_footnote</code><span class="md-meta md-after">`</span></span><span md-inline="plain">, </span><span md-inline="code" spellcheck="false"><span class="md-meta md-before">`</span><code>table</code><span class="md-meta md-after">`</span></span><span md-inline="plain">, </span><span md-inline="code" spellcheck="false"><span class="md-meta md-before">`</span><code>meta_block</code><span class="md-meta md-after">`</span></span><span md-inline="plain">, </span><span md-inline="code" spellcheck="false"><span class="md-meta md-before">`</span><code>math_block</code><span class="md-meta md-after">`</span></span><span md-inline="plain">, </span><span md-inline="code" spellcheck="false"><span class="md-meta md-before">`</span><code>list</code><span class="md-meta md-after">`</span></span><span md-inline="plain">, </span><span md-inline="code" spellcheck="false"><span class="md-meta md-before">`</span><code>toc</code><span class="md-meta md-after">`</span></span><span md-inline="plain">, </span><span md-inline="code" spellcheck="false"><span class="md-meta md-before">`</span><code>list_item</code><span class="md-meta md-after">`</span></span><span md-inline="plain">, </span><span md-inline="code" spellcheck="false"><span class="md-meta md-before">`</span><code>table-row</code><span class="md-meta md-after">`</span></span><span md-inline="plain">, </span><span md-inline="code" spellcheck="false"><span class="md-meta md-before">`</span><code>table-cell</code><span class="md-meta md-after">`</span></span><span md-inline="plain">, </span><span md-inline="code" spellcheck="false"><span class="md-meta md-before">`</span><code>line</code><span class="md-meta md-after">`</span></span><span md-inline="plain" class="">. But in most times, tag selector is enough.</span></span></p></div>
+</content>
+
+</body>
+
+</html>

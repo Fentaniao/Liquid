@@ -239,7 +239,6 @@ thead {
 
 /* 粗体 */
 #write strong {
-  padding: 0 4px;
   font-weight: bold;
   background-color: var(--Mica-light);
   border-radius: 20px 20px 20px 20px;
@@ -250,7 +249,6 @@ thead {
 
 /* 斜体 */
 #write em {
-  padding: 0 4px;
   background-color: var(--Mica-light);
   border-radius: 20px 20px 20px 20px;
   padding: 2px 4px;
