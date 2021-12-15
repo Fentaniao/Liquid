@@ -6,7 +6,7 @@ homepage: https://github.com/Fentaniao/Liquid
 download: https://github.com/Fentaniao/Liquid/releases
 built-in: false
 author: Fentaniao
-thumbnail: Liquid.png
+thumbnail: liquid.png
 typora-root-url: ../../
 typora-copy-images-to: ../../media/theme/Liquid
 ---
@@ -30,7 +30,13 @@ A nice theme for Typora, inspired by [Purple Theme](https://github.com/hliu202/t
 
 ## How to install
 
-1. Download the **liquid.css** of the release from [Liquid repository](https://github.com/Fentaniao/Liquid/releases)
+1. Download the **liquid.css** of the [release](https://github.com/Fentaniao/Liquid/releases) from [Liquid repository](https://github.com/Fentaniao/Liquid/)
 2. Open Typora setting, in *Preferences*, click on *Appearance*, then on *Open Theme Folder*
 3. Paste **liquid.css** into the folder
 4. Select the Liquid theme from the *Themes* menu in Typora
+
+## Contact
+
+Author: Fentaniao
+
+Email: Fentaniao@gmail.com

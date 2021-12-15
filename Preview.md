@@ -1,10 +1,18 @@
-# Introduction to Liquid Theme
+# Introducing Liquid Theme
 
-## Feature 
+## Feature
 
 ### Color
 
+#### Colorful indication
+
 This theme **use color to indicate interactivity**. It's a good idea to choose one color to indicate elements of your application that are interactive. For example, many web pages use blue text to denote a hyperlink.
+
+#### Gradient
+
+Gradient is to draw a component by using two or more different colors, forming a harmonious transition between the colors. This is a hue that didn't exist before. It looks unique, modern and refreshing.
+
+This [website](https://webkul.github.io/coolhue/) inspires me to use Gradient. 
 
 ### Mica Material
 
@@ -57,6 +65,12 @@ In life, if the edges and corners of objects are too sharp, it is not safe. Indu
 #### Strikethrough
 
 ~~This is a context in Underline.~~
+
+#### Hyperlink
+
+[Homepage](https://github.com/Fentaniao/Liquid)
+
+[Download](https://github.com/Fentaniao/Liquid/releases)
 
 ### Math
 
