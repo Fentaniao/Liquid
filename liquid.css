@@ -349,6 +349,7 @@ img[alt|="shadow"] {
 }
 
 /* 目录 */
+/* TOC */
 #write .md-toc { 
   background-color: #F7F9FC;
   border-radius: 20px 20px 20px 20px;
@@ -382,6 +383,11 @@ img[alt|="shadow"] {
 
 #write .md-toc-h2 .md-toc-inner { 
   font-weight: bold;
+}
+
+.md-toc-h5,
+.md-toc-h6 {
+  display: none;
 }
 
 header,
@@ -546,6 +552,7 @@ pre {
 }
 
 
+/* 侧栏 */
 /* sidebar */
 #typora-sidebar,
 .typora-node #typora-sidebar {

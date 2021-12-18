@@ -4,7 +4,7 @@
 
 ### Color
 
-#### Colorful indication
+#### Colorful Indication
 
 This theme **use color to indicate interactivity**. It's a good idea to choose one color to indicate elements of your application that are interactive. For example, many web pages use blue text to denote a hyperlink.
 
