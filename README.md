@@ -14,13 +14,16 @@ typora-copy-images-to: ../../media/theme/Liquid
 
 A nice theme for Typora, inspired by [Purple Theme](https://github.com/hliu202/typora-purple-theme) and [Microsoft Fluent Design](https://www.microsoft.com/design/fluent/#/). This theme provides outstanding visual effects for Windows 11.
 
-> This theme has been tested on Windows 11 and Windows 10.
+> Support list
 >
-> Support Light and Dark mode, and Ink mode.
+> - System: Windows 11 and Windows 10.
+> - Mode: Light and Dark mode, and Ink mode.
 >
-> Support English and Chinese.
+> - Language: English and Chinese.
 
 ## Screenshots
+
+### Light Mode
 
 ![preview1](/media/theme/liquid/preview1.png)
 
@@ -32,11 +35,20 @@ A nice theme for Typora, inspired by [Purple Theme](https://github.com/hliu202/t
 
 ![preview5](/media/theme/liquid/preview5.png)
 
+### Dark Mode
+
+Developing
+
+### Ink Mode
+
+Developing
+
 ## How to install
 
-1. Download the **liquid.css** of the [release](https://github.com/Fentaniao/Liquid/releases) from [Liquid repository](https://github.com/Fentaniao/Liquid/)
+1. Download the files **liquid.zip** from the [release](https://github.com/Fentaniao/Liquid/releases) in [Liquid repository](https://github.com/Fentaniao/Liquid/)
 2. Open Typora setting, in *Preferences*, click on *Appearance*, then on *Open Theme Folder*
-3. Paste **liquid.css** into the folder
+3. Unzip **liquid.zip** into the folder
+4. Restart Typora
 4. Select the Liquid theme from the *Themes* menu in Typora
 
 ## Contact
