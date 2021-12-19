@@ -42,7 +42,7 @@ In life, if the edges and corners of objects are too sharp, it is not safe. Indu
 
 #### Inline Code
 
-`This is an inline code`
+`print("This is inline code.")`
 
 ### Text Format
 
@@ -50,21 +50,31 @@ In life, if the edges and corners of objects are too sharp, it is not safe. Indu
 
 ==This is a context in highlight.==
 
+==这是一段高亮的文字。==
+
 #### Bold
 
 **This is a context in Bold.**
+
+**这是一段加粗的文字。**
 
 #### Italics
 
 *This is a context in italics.*
 
+*这是一段倾斜的文字。*
+
 #### Underline
 
 <u>This is a context in Underline.</u>
 
+<u>这是一段加有删除线的文字。</u>
+
 #### Strikethrough
 
 ~~This is a context in Underline.~~
+
+~~这是一段加有下划线的文字。~~
 
 #### Hyperlink
 
@@ -96,3 +106,4 @@ CO~2~ is a kind of gas in the air.
 
 - [ ] Undo
 - [x] Done
+
