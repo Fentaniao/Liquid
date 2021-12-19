@@ -22,6 +22,13 @@ Mica is an opaque material. I apply Mica to this theme to delight users and crea
 
 In life, if the edges and corners of objects are too sharp, it is not safe. Industrial Angle, rounded/chamfered for easier assembly. Instead of sharp edges that make people feel cold, rounded corners make people feel more warm.
 
+#### Multi-Support
+
+- Both English and Chinese. 
+
+- Both light and dark mode, and also provide ink mode. 
+
+
 ## Effect
 
 ### Context

@@ -137,27 +137,27 @@ h1:after {
   display: block;
   margin: 0.2em auto 0;
   width: 6rem;
-  height: 2.4px;
+  height: 2px;
   border-bottom: 2px solid var(--title-color);
 }
 
 h2 {
   padding-left: 0.4em;
-  font-size: 2em;
+  font-size: 1.8em;
   border-left: 0.4em solid var(--title-color);
   border-bottom: 1px solid var(--title-color);
 }
 h3 {
-  font-size: 2em;
+  font-size: 1.8em;
 }
 h4 {
-  font-size: 1.7em;
+  font-size: 1.5em;
 }
 h5 {
-  font-size: 1.4em;
+  font-size: 1.3em;
 }
 h6 {
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 p,
