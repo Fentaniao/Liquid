@@ -17,31 +17,40 @@ A nice theme for Typora, inspired by [Purple Theme](https://github.com/hliu202/t
 > Support list
 >
 > - System: Windows 11 and Windows 10.
+> 
 > - Mode: Light and Dark mode, and Ink mode.
 >
 > - Language: English and Chinese.
 
 ## Screenshots
 
+[Click here](https://github.com/Fentaniao/Liquid/blob/main/Preview.md) to see the details about Liquid Theme.
+
+![preview](/media/theme/liquid/preview.png)
+
 ### Light Mode
 
-![preview1](/media/theme/liquid/preview1.png)
+![light-preview1](/media/theme/liquid/light-preview1.png)
 
-![preview2](/media/theme/liquid/preview2.png)
+![light-preview2](/media/theme/liquid/light-preview2.png)
 
-![preview3](/media/theme/liquid/preview3.png)
-
-![preview4](/media/theme/liquid/preview4.png)
-
-![preview5](/media/theme/liquid/preview5.png)
+![light-preview3](/media/theme/liquid/light-preview3.png)
 
 ### Dark Mode
 
-Developing
+![dark-preview1](/media/theme/liquid/dark-preview1.png)
+
+![dark-preview2](/media/theme/liquid/dark-preview2.png)
+
+![dark-preview3](/media/theme/liquid/dark-preview3.png)
 
 ### Ink Mode
 
-Developing
+![ink-preview1](/media/theme/liquid/ink-preview1.png)
+
+![ink-preview2](/media/theme/liquid/ink-preview2.png)
+
+![ink-preview3](/media/theme/liquid/ink-preview3.png)
 
 ## How to install
 

@@ -1,2 +1,4 @@
-@import 'liquid/font-stanard.css';
+@import 'liquid/body.css';
+@import 'liquid/color-dark.css';
+@import 'liquid/font.css';
 @import 'liquid/main.css';

@@ -1,24 +1,3 @@
-:root {
-  --title-color: #6f79ff;
-  --text-color: #353535;
-  --light-text-color: #666666;
-  --link-color: #55d3e4;
-  --code-color: #937fce;
-
-  --shadow-color: rgba(128, 107, 192, 0.1);
-  --blue-light: #559CE4;
-  --Mica-light: #f3f3f3;
-  --border: rgb(179, 179, 179);
-  --shadow: 0.4rem 0.8rem 1.6rem var(--shadow-color);
-
-  --side-bar-bg-color: var(--Mica-light);
-  --control-text-color: var(var(--light-text-color));
-  --active-file-text-color: var(--title-color);
-  --active-file-bg-color: var(--shadow-color);
-  --item-hover-bg-color: var(--shadow-color);
-  --active-file-border-color: var(var(--title-color));
-}
-
 /* 打印 */
 /* print */
 @media print {
@@ -208,7 +187,7 @@ ul li {
 
 /* 引用 */
 blockquote {
-  border-left: 0.2em solid var(--blue-light);
+  border-left: 0.2em solid var(--blue);
   padding-left: 1em;
   color: var(--light-text-color);
   font-family: var(--base-font);
@@ -233,7 +212,7 @@ table thead th {
 }
 table tr:nth-child(2n),
 thead {
-  background-color: #fcfcfc;
+  background-color: var(--table-background-color);
 }
 
 /* 文字样式 */
@@ -245,19 +224,19 @@ mark {
   padding: 0 4px;
   border-radius: 8px 8px 8px 8px;
   margin: 0 2px;
+  color: var(--text-color);
+  background-color: var(--Mica);
 }
 
 /* 粗体 */
 #write strong {
   font-weight: bold;
-  background-color: var(--Mica-light);
-  color: #000000;
+
 }
 
 /* 斜体 */
 #write em {
-  background-color: var(--Mica-light);
-  color: #000000;
+
 }
 
 /* 行间公式 */
@@ -266,7 +245,6 @@ mark {
 tt {
   font-family: var(--monospace);
   color: var(--code-color);
-  background-color: var(--Mica-light);
   margin: 0 2px;
 }
 
@@ -294,7 +272,7 @@ tt {
   padding: 1rem;
   font-size: 85%;
   line-height: 1.45;
-  background-color: #f7f7f7;
+  background-color: var(--Mica);
   border: 0;
   border-radius: 20px 20px 20px 20px;
   color: #777777;
@@ -329,7 +307,7 @@ img[alt|="shadow"] {
 /* 目录 */
 /* TOC */
 #write .md-toc { 
-  background-color: #F7F9FC;
+  background-color: var(--Mica);
   border-radius: 20px 20px 20px 20px;
   padding: 2px 4px;
   margin: 0 2px;
@@ -396,7 +374,7 @@ pre {
 /* border and bg */
 .md-fences {
   border-radius: 20px 20px 20px 20px;
-  background: #F1F3F7;
+  background: var(--Mica);
   backdrop-filter: blur(15px);
 }
 #write pre.md-fences {
@@ -535,7 +513,22 @@ pre {
 #typora-sidebar,
 .typora-node #typora-sidebar {
   box-shadow: 3px 0px 10px var(--shadow-color);
+    color: var(--text-color);
 }
 .sidebar-content-content {
   font-size: 0.9rem;
+}
+
+/* 选中的文字 */
+::selection {
+  background:#ccc;
+  color:var(--blue);
+}
+::-moz-selection {
+  background:#ccc;
+  color:var(--blue);
+}
+::-webkit-selection {
+  background:#ccc;
+  color:var(--blue);
 }
