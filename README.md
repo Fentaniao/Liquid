@@ -54,12 +54,12 @@ A nice theme for Typora, inspired by [Purple Theme](https://github.com/hliu202/t
 
 ## How to install
 
-1. Download the files **liquid.zip** and **font.zip** from the [Releases](https://github.com/Fentaniao/Liquid/releases) in [Liquid repository](https://github.com/Fentaniao/Liquid/)
+1. Download the **CSS files** and **font.zip** from the [Releases](https://github.com/Fentaniao/Liquid/releases) in [Liquid repository](https://github.com/Fentaniao/Liquid/)
 1. Unzip **font.zip** and install font into your PC
 2. Open Typora setting, in *Preferences*, click on *Appearance*, then on *Open Theme Folder*
-3. Unzip **liquid.zip** into the folder
+3. Paste the CSS files into the folder
 4. Restart Typora
-4. Select the Liquid theme from the *Themes* menu in Typora
+4. Select the Liquid themes from the *Themes* menu in Typora
 
 ## Contact
 
