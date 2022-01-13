@@ -6,14 +6,14 @@
     --light-text-color: #666666;
     --link-color: #55d3e4;
     --code-color: #937fce;
-  
+
     --shadow-color: rgba(128, 107, 192, 0.1);
     --blue: #559CE4;
     --Mica: #f3f3f3;
     --border: rgb(179, 179, 179);
     --shadow: 0.4rem 0.8rem 1.6rem var(--shadow-color);
-  
-    --table-background-color:#fcfcfc;
+
+    --table-background-color: #fcfcfc;
 
     --side-bar-bg-color: var(--Mica);
     --control-text-color: var(var(--light-text-color));
@@ -21,4 +21,4 @@
     --active-file-bg-color: var(--shadow-color);
     --item-hover-bg-color: var(--shadow-color);
     --active-file-border-color: var(var(--title-color));
-  }
+}

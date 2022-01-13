@@ -6,17 +6,17 @@
     --light-text-color: #666666;
     --link-color: #55d3e4;
     --code-color: #937fce;
-  
+
     --shadow-color: rgba(128, 107, 192, 0.1);
     --blue: #559CE4;
     --Mica: #323232;
     --border: rgb(179, 179, 179);
     --shadow: 0.4rem 0.8rem 1.6rem var(--shadow-color);
-  
-    --table-background-color:var(--Mica);
-    
+
+    --table-background-color: var(--Mica);
+
     --window-border: 1px solid #555;
-    --bg-color:  #363B40;
+    --bg-color: #363B40;
     --rawblock-edit-panel-bd: #333;
     --search-select-bg-color: #428bca;
 
@@ -26,14 +26,14 @@
     --active-file-bg-color: var(--shadow-color);
     --item-hover-bg-color: var(--shadow-color);
     --active-file-border-color: var(--title-color);
-  }
+}
 
-  
-  body {
-    background: #232736; 
-  }
 
-  header,
+body {
+    background: #232736;
+}
+
+header,
 .context-menu,
 .megamenu-content,
 footer {

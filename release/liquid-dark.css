@@ -1,3 +1,71 @@
+body {
+    color: var(--text-color);
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.6rem;
+    letter-spacing: 0;
+    overflow-x: hidden;
+}
+/* 夜间 */
+/* dark */
+:root {
+    --title-color: #6f79ff;
+    --text-color: #F5F5F5;
+    --light-text-color: #666666;
+    --link-color: #55d3e4;
+    --code-color: #937fce;
+
+    --shadow-color: rgba(128, 107, 192, 0.1);
+    --blue: #559CE4;
+    --Mica: #323232;
+    --border: rgb(179, 179, 179);
+    --shadow: 0.4rem 0.8rem 1.6rem var(--shadow-color);
+
+    --table-background-color: var(--Mica);
+
+    --window-border: 1px solid #555;
+    --bg-color: #363B40;
+    --rawblock-edit-panel-bd: #333;
+    --search-select-bg-color: #428bca;
+
+    --side-bar-bg-color: #192030;
+    --control-text-color: var(--text-color);
+    --active-file-text-color: var(--title-color);
+    --active-file-bg-color: var(--shadow-color);
+    --item-hover-bg-color: var(--shadow-color);
+    --active-file-border-color: var(--title-color);
+}
+
+
+body {
+    background: #232736;
+}
+
+header,
+.context-menu,
+.megamenu-content,
+footer {
+    color: var(--text-color);
+    background: #232736;
+}
+
+
+:root {
+    --base-font: "思源宋体 CN Medium", "Helvetica Neue", "Noto Sans", -apple-system, Ubuntu,
+    "Microsoft YaHei", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans",
+    "Noto Sans CJK SC", "PingFang SC", "Hiragino Sans GB", "Source Han Sans SC",
+    "Source Han Sans CN", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti",
+    SimHei, "WenQuanYi Zen Hei Sharp", "Source Sans Pro", sans-serif;
+    --title-font: "思源宋体 CN Medium", "EB Garamond", Georgia, "Noto Serif", "Noto Serif CJK SC",
+    "Nimbus Roman No9 L", "Songti SC", "Source Han Serif SC",
+    "Source Han Serif CN", STSong, "AR PL New Sung", "AR PL SungtiL GB", NSimSun,
+    SimSun, "TW\-Sung", "WenQuanYi Bitmap Song", "AR PL UMing CN",
+    "AR PL UMing HK", "AR PL UMing TW", "AR PL UMing TW MBE", PMingLiU, MingLiU,
+    "Ubuntu", "Source Sans Pro", serif;
+    --monospace: "JetBrains Mono", "Fira Code", "Cascadia Code", "Sarasa Term SC",
+    Monaco, "Deja Vu Sans Mono", Consolas, "Lucida Console", "Andale Mono",
+    "Roboto Mono", Courier, Monospace !important;
+}
+  
 /* 打印 */
 /* print */
 @media print {
@@ -552,3 +620,7 @@ pre {
     background: #ccc;
     color: var(--blue);
 }
+
+
+
+
