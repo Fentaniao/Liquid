@@ -14,13 +14,13 @@ typora-copy-images-to: ../../media/theme/Liquid
 
 A nice theme for Typora, inspired by [Purple Theme](https://github.com/hliu202/typora-purple-theme) and [Microsoft Fluent Design](https://www.microsoft.com/design/fluent/#/). This theme provides outstanding visual effects for Windows 11.
 
-> Support list
->
-> - System: Windows 11 and Windows 10.
-> 
-> - Mode: Light and Dark mode, and Ink mode.
->
-> - Language: English and Chinese.
+![logo](/media/theme/liquid/logo.png)
+
+## Support list
+
+- System: Windows 11 and Windows 10.
+- Mode: Light and Dark mode, and Ink mode.
+- Language: English and Chinese.
 
 ## Screenshots
 
@@ -66,3 +66,7 @@ A nice theme for Typora, inspired by [Purple Theme](https://github.com/hliu202/t
 Author: Fentaniao
 
 Email: Fentaniao@gmail.com
+
+## License
+
+[GPL-3.0 License](https://github.com/Fentaniao/Liquid/blob/main/LICENSE) © Fentaniao
