@@ -12,19 +12,19 @@ typora-copy-images-to: ../../media/theme/Liquid
 ---
 # Liquid
 
-A nice theme for Typora, inspired by [Microsoft Fluent Design](https://www.microsoft.com/design/fluent/#/) and [Purple Theme](https://github.com/hliu202/typora-purple-theme). This theme provides outstanding visual effects for Windows 11.
+为Typora精心设计的具有出色视觉效果的主题，灵感来源于[Microsoft Fluent Design](https://www.microsoft.com/design/fluent/#/) 和[Purple Theme](https://github.com/hliu202/typora-purple-theme)。 这个主题能够在Windows 11平台上为Typora提供出色的视觉体验。
 
 [English Readme](https://github.com/Fentaniao/Liquid/blob/main/README.md) | [中文文档](https://github.com/Fentaniao/Liquid/blob/Liquid/README_zh.md)
 
-## Support list
+## 支持
 
-- System: Windows 11 and Windows 10.
-- Mode: Light and Dark mode, and Ink mode.
-- Language: English and Chinese.
+- 系统：Windows 11 和Windows 10。
+- 模式：Light mode，Dark mode和Ink mode。
+- 语言：英语和中文。
 
 ## Screenshots
 
-[Click here](https://github.com/Fentaniao/Liquid/blob/main/Preview.md) to see the details about Liquid Theme.
+[点击这里](https://github.com/Fentaniao/Liquid/blob/main/Preview.md)查看关于Liquid主题的更多细节。
 
 ![preview](/media/theme/liquid/preview.png)
 
@@ -52,21 +52,21 @@ A nice theme for Typora, inspired by [Microsoft Fluent Design](https://www.micro
 
 ![ink-preview3](/media/theme/liquid/ink-preview3.png)
 
-## How to install
+## 安装
 
-1. Download the **CSS files** and **font.zip** from the [Releases](https://github.com/Fentaniao/Liquid/releases) in [Liquid repository](https://github.com/Fentaniao/Liquid/)
-2. Unzip **font.zip** and install font into your PC
-3. Open Typora setting, in *Preferences*, click on *Appearance*, then on *Open Theme Folder*
-4. Paste the CSS files into the folder
-5. Restart Typora
-6. Select the Liquid themes from the *Themes* menu in Typora
+1. 从位于[Liquid 存储库](https://github.com/Fentaniao/Liquid/)中的[Releases](https://github.com/Fentaniao/Liquid/releases)页面中下载**CSS 文件** 和 **font.zip** 
+2. 解压**font.zip**并将它们安装到你的PC上
+3. 打开Typora设置页面，点击*偏好设置*，然后点击*界面*，最后点击*打开主题文件夹*
+4. 将CSS文件粘贴到文件夹中
+5. 重启Typora
+6. 在Typora的*主题* 选项中选择Liquid主题
 
-## Contact
+## 联系
 
-Author: Fentaniao
+作者: Fentaniao
 
-Email: Fentaniao@gmail.com
+邮箱: Fentaniao@gmail.com
 
-## License
+## 许可证
 
 [GPL-3.0 License](https://github.com/Fentaniao/Liquid/blob/main/LICENSE) © Fentaniao
