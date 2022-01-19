@@ -33,7 +33,7 @@ def combine_import(file_path, target_file_path):
         # 迭代写入文件
         with open(target_file_path, 'a', encoding='UTF-8') as target_f:
             lines = re.sub(r"@import '(.*)';", "", lines)
-            target_f.write(lines + '\n')
+            target_f.write(lines + '\n\n')
 
 
 # 设定目录
