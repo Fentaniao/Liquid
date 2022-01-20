@@ -56,5 +56,6 @@ for file_name in fileList:
         print('>> Processing ' + file_name + ': ')
         if os.path.exists(target_dir + file_name):
             os.remove(target_dir + file_name)
+            print('Delete old file.')
 
         combine_import(file_name, target_dir + file_name)
