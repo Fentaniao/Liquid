@@ -6,7 +6,7 @@
 
 #### Colorful Indication
 
-This theme **use color to indicate interactivity**. It's a good idea to choose one color to indicate elements of your application that are interactive. For example, many web pages use blue text to denote a hyperlink.
+This theme use color to indicate interactivity. It's a good idea to choose one color to indicate elements of your application that are interactive. For example, many web pages use blue text to denote a hyperlink.
 
 #### Gradient
 
@@ -39,12 +39,16 @@ Industrial Angle, rounded/chamfered for easier assembly. Instead of sharp edges 
 
 #### Code Block
 
-```css
-.glass {
-	backdrop-filter: blur(5px);
-	box-shadow: 0 8px 12px rgba(255,255,255,.3);
-	background: rgba(255,255,255,.5);
-}
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello, World!</title>
+    </head>
+    <body>
+        <p>This is an example of a simple HTML page with one paragraph.</p>
+    </body>
+</html>
 ```
 
 #### Inline Code
@@ -91,11 +95,11 @@ Industrial Angle, rounded/chamfered for easier assembly. Instead of sharp edges 
 
 #### Table
 
-|      |      |      |
-| ---- | ---- | ---- |
-|      |      |      |
-|      |      |      |
-|      |      |      |
+| Matrix |  1   |  2   |  3   |
+| :----: | :--: | :--: | :--: |
+|   1    |  11  |  12  |  13  |
+|   2    |  21  |  22  |  23  |
+|   3    |  31  |  32  |  33  |
 
 
 
@@ -123,3 +127,5 @@ CO~2~ is a kind of gas in the air.
 - [ ] Undo
 - [x] Done
 
+1. First
+2. Second

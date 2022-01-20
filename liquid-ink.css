@@ -1,4 +1,48 @@
 @import 'liquid/font-ink.css';
 @import 'liquid/color-light.css';
-@import 'liquid/body-ink.css';
+@import 'liquid/CodeMirror.css';
 @import 'liquid/main.css';
+
+
+body {
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+/* 标题 */
+/* title */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 1.2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 1.9em;
+}
+
+h2 {
+    font-size: 1.7em;
+}
+
+h3 {
+    font-size: 1.7em;
+}
+
+h4 {
+    font-size: 1.5em;
+}
+
+h5 {
+    font-size: 1.3em;
+}
+
+h6 {
+    font-size: 1.1em;
+}

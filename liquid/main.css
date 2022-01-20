@@ -48,6 +48,14 @@ html {
     word-spacing: 0.05rem;
 }
 
+body {
+    color: var(--text-color);
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.6rem;
+    letter-spacing: 0;
+    overflow-x: hidden;
+}
+
 body > *:first-child {
     margin-top: 0 !important;
 }
@@ -56,30 +64,6 @@ body > *:last-child {
     margin-bottom: 0 !important;
 }
 
-/* 超链接 */
-/* hyperlink */
-a {
-    color: var(--link-color);
-    text-decoration: none;
-}
-
-#write a {
-    border-bottom: none;
-    background: linear-gradient(to bottom, #3C8CE7, #00EAFF);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-}
-
-#write a:hover {
-    border-bottom: 1px solid var(--link-color);
-    color: var(--link-color);
-    text-decoration: none;
-}
-
-.md-content {
-    color: var(--light-text-color);
-}
 
 /* 标题 */
 /* title */
@@ -113,7 +97,7 @@ h6 {
 
 h1 {
     text-align: center;
-    font-size: 2.2em;
+    font-size: 1.8em;
     margin-bottom: 2rem;
 }
 
@@ -128,25 +112,51 @@ h1:after {
 
 h2 {
     padding-left: 0.4em;
-    font-size: 2em;
+    font-size: 1.6em;
     border-left: 0.4em solid var(--title-color);
     border-bottom: 1px solid var(--title-color);
 }
 
 h3 {
-    font-size: 2em;
+    font-size: 1.6em;
 }
 
 h4 {
-    font-size: 1.7em;
-}
-
-h5 {
     font-size: 1.4em;
 }
 
-h6 {
+h5 {
     font-size: 1.2em;
+}
+
+h6 {
+    font-size: 1.0em;
+}
+
+
+/* 超链接 */
+/* hyperlink */
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+#write a {
+    border-bottom: none;
+    background: linear-gradient(to bottom, #3C8CE7, #00EAFF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#write a:hover {
+    border-bottom: 1px solid var(--link-color);
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+.md-content {
+    color: var(--light-text-color);
 }
 
 p,
@@ -195,13 +205,6 @@ ul li {
     padding-left: 0.1rem;
 }
 
-/* 引用 */
-blockquote {
-    border-left: 0.2em solid var(--blue);
-    padding-left: 1em;
-    color: var(--light-text-color);
-    font-family: var(--base-font);
-}
 
 /* 表格 */
 table {
@@ -228,6 +231,16 @@ table tr:nth-child(2n),
 thead {
     background-color: var(--table-background-color);
 }
+
+
+/* 引用 */
+blockquote {
+    border-left: 0.2em solid var(--blue);
+    padding-left: 1em;
+    color: var(--light-text-color);
+    font-family: var(--base-font);
+}
+
 
 /* 文字样式 */
 strong,
@@ -399,55 +412,6 @@ pre {
     box-shadow: var(--shadow);
 }
 
-.cm-s-inner {
-    padding: 0.25rem;
-    border-radius: 20px 20px 20px 20px;
-}
-
-.cm-s-inner.CodeMirror,
-.cm-s-inner .CodeMirror-gutters {
-    color: #3a3432 !important;
-    border: none;
-}
-
-.cm-s-inner .CodeMirror-gutters {
-    color: #6d8a88;
-}
-
-.cm-s-inner .CodeMirror-linenumber {
-    padding: 0 0.1rem 0 0.3rem;
-    color: #b8b5b4;
-}
-
-.cm-s-inner .CodeMirror-line::selection,
-.cm-s-inner .CodeMirror-line::-moz-selection,
-.cm-s-inner .CodeMirror-line > span::selection,
-.cm-s-inner .CodeMirror-line > span::-moz-selection,
-.cm-s-inner .CodeMirror-line > span > span::selection,
-.cm-s-inner .CodeMirror-line > span > span::-moz-selection {
-    background: var(--shadow-color);
-}
-
-.md-fences.md-focus .cm-s-inner .CodeMirror-activeline-background {
-    background: var(--shadow-color);
-}
-
-.cm-s-inner .CodeMirror-matchingbracket {
-    text-decoration: underline;
-    color: #a34e8f !important;
-}
-
-#fences-auto-suggest .active {
-    background: #ddd;
-}
-
-.cm-s-inner span.cm-comment {
-    color: #9daab6;
-}
-
-.cm-s-inner span.cm-builtin {
-    color: #0451a5;
-}
 
 /* language tip */
 #write .code-tooltip {
@@ -475,6 +439,7 @@ pre {
     width: 1rem;
     transition: background 0.3s;
 }
+
 
 #write .md-task-list-item > input:focus {
     outline: none;

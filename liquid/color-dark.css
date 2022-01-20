@@ -28,6 +28,11 @@
     --active-file-border-color: var(--title-color);
 }
 
+.megamenu-content,
+.megamenu-opened header {
+    background: var(--bg-color);
+}
+
 
 body {
     background: #232736;
