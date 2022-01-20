@@ -4,18 +4,10 @@
 @import 'liquid/main.css';
 
 
-
-
-
-
 #recent-file-panel-action-btn {
     background: inherit;
     border: 1px grey solid;
 }
-
-
-
-
 
 
 #recent-file-panel tbody tr:nth-child(2n-1) {
@@ -39,7 +31,7 @@
 
 /* 滚动槽 */
 ::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
 }
 
@@ -47,7 +39,7 @@
 ::-webkit-scrollbar-thumb {
     border-radius: 8px;
     background: #bbb;
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.25);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.25);
 }
 
 /* 非激活窗口 */

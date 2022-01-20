@@ -47,6 +47,8 @@ footer {
 }
 
 
+
+
 .cm-s-inner {
     padding: 0.25rem;
     border-radius: 20px 20px 20px 20px;
@@ -245,7 +247,7 @@ footer {
     Monaco, "Deja Vu Sans Mono", Consolas, "Lucida Console", "Andale Mono",
     "Roboto Mono", Courier, Monospace !important;
 }
-
+  
 
 /* 打印 */
 /* print */
@@ -766,6 +768,11 @@ pre {
     background: #ccc;
     color: var(--blue);
 }
+
+
+
+
+
 
 
 #recent-file-panel-action-btn {
