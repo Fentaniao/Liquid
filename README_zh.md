@@ -54,12 +54,15 @@ typora-copy-images-to: ../../media/theme/Liquid
 
 ## 安装
 
-1. 从位于[Liquid 存储库](https://github.com/Fentaniao/Liquid/)中的[Releases](https://github.com/Fentaniao/Liquid/releases)页面中下载**CSS 文件** 和 **font.zip** 
-2. 解压**font.zip**并将它们安装到你的PC上
-3. 打开Typora设置页面，点击*偏好设置*，然后点击*界面*，最后点击*打开主题文件夹*
-4. 将CSS文件粘贴到文件夹中
-5. 重启Typora
-6. 在Typora的*主题* 选项中选择Liquid主题
+1. 从位于[Liquid 存储库](https://github.com/Fentaniao/Liquid/)中的[Releases](https://github.com/Fentaniao/Liquid/releases)页面中下载**Liquid.zip** 。
+2. 在Typora设置页面中，点击*偏好设置*，然后点击*界面*，最后点击*打开主题文件夹*。
+3. 解压**Liquid.zip**到该文件夹中。
+4. 重启Typora。
+5. 在Typora的*主题* 选项中选择Liquid主题。
+
+### 注意
+
+为了在Ink Mode下渲染中文字体，你仍需要将"liquid/FZSJ-SGLDXMHJW.TTF"安装到你的PC上。
 
 ## 联系
 

@@ -54,12 +54,15 @@ A nice theme for Typora, inspired by [Microsoft Fluent Design](https://www.micro
 
 ## How to install
 
-1. Download the **CSS files** and **font.zip** from the [Releases](https://github.com/Fentaniao/Liquid/releases) in [Liquid repository](https://github.com/Fentaniao/Liquid/)
-2. Unzip **font.zip** and install font into your PC
-3. Open Typora setting, in *Preferences*, click on *Appearance*, then on *Open Theme Folder*
-4. Paste the CSS files into the folder
-5. Restart Typora
-6. Select the Liquid themes from the *Themes* menu in Typora
+1. Download the **Liquid.zip** from the [Releases](https://github.com/Fentaniao/Liquid/releases) in [Liquid repository](https://github.com/Fentaniao/Liquid/).
+2. Open Typora setting, in *Preferences*, click on *Appearance*, then on *Open Theme Folder*.
+3. Unzip **Liquid.zip** into the folder.
+4. Restart Typora.
+5. Select the Liquid themes from the *Themes* menu in Typora.
+
+### Attention
+
+You still need to install "liquid/FZSJ-SGLDXMHJW.TTF" font into your PC for rendering Chinese characters in Ink Mode.
 
 ## Contact
 

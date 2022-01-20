@@ -46,3 +46,8 @@
 /* ::-webkit-scrollbar-thumb:window-inactive {
     background: rgba(0,255,0,0.4);
 } */
+
+
+::-webkit-scrollbar-thumb:hover {
+	background: rgba(157, 165, 183, 0.7);
+} 
