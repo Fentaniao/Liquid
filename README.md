@@ -12,7 +12,10 @@ typora-copy-images-to: ../../media/theme/Liquid
 ---
 # Liquid
 
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/fentaniao/liquid)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/fentaniao/liquid?&color=blue&logo=hack-the-box)</a>
+![GitHub downloads](https://img.shields.io/github/downloads/fentaniao/liquid/total?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAVCAYAAACg/AXsAAAAAXNSR0IArs4c6QAAAX1JREFUOE/llLEuBGEUhb+zIaHR8gYapUQUig1RaEg0Wo3GC4hOoaDXKVQ6UXgAoVGIaBRGYiMSXkBDMEf+mdmZf3bWegBTTe5/77nnnnv+Xwz4bE8AF5ImB+XpD5Ap4OQ/gtjeABaA4aCRgUKsb2Ab2CujxWEK7y04lnQm2zuYtW5VLnQJcydp1XYSI0c5IXE3gFwDY7XiikoFUq7RGMU9b+XUSYhEI8T/OUickyXG2XSU2kkeizv8Pk6FUeZ0ZKdJRc98o60h6dT2jeGp1dUEXiW1be8Dy5FJA4iTumuzDvPAC3AqacX2laRZ27PAUY/L+4xTjbuIeFYuAP70HEMcVsfF+CZn0l9U84GWRqRH28FDB801Z5w6xXZqavdYhXNMu9xgv+00jBRvqlnQ26Bg0hW2UVCwi+MNwpkumSb3YMUu/Buv5trHAHIJjAfPxn4pr2CPmn3MdhVA1oGtX5Sv34fmM/gFbGY33vZ0CjMtGB30XMZnKby14FzSww+Jf/H06Zp5zAAAAABJRU5ErkJggg==)</a>
+![GitHub Repo stars](https://img.shields.io/github/stars/fentaniao/liquid?style=flat&logo=github&color=yellow)</a>
+
 
 A nice theme for Typora, inspired by [Microsoft Fluent Design](https://www.microsoft.com/design/fluent/#/) and [Purple Theme](https://github.com/hliu202/typora-purple-theme). This theme provides outstanding visual effects for Windows 11.
 
