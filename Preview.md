@@ -26,7 +26,7 @@ Industrial Angle, rounded/chamfered for easier assembly. Instead of sharp edges 
 
 - Both English and Chinese. 
 
-- Both provide light and dark mode, and also ink mode. 
+- Provides 3 modes, Light Mode, Dark Mode, and Ink Mode.
 
 ## Effect
 
@@ -78,13 +78,13 @@ Industrial Angle, rounded/chamfered for easier assembly. Instead of sharp edges 
 
 <u>This is a context in Underline.</u>
 
-<u>这是一段加有删除线的文字。</u>
+<u>这是一段加有下划线的文字。</u>
 
 #### Strikethrough
 
 ~~This is a context in Underline.~~
 
-~~这是一段加有下划线的文字。~~
+~~这是一段加有删除线的文字。~~
 
 #### Hyperlink
 
