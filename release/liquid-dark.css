@@ -187,6 +187,14 @@ footer {
     background-color: #263238;
 }
 
+
+
+  /* selected text */
+  .CodeMirror-selected,
+  .CodeMirror-selectedtext {
+    background: var(--blue) !important;
+  }
+
 @font-face {
     font-family: 'JetBrains Mono';
     font-style: normal;
@@ -822,4 +830,47 @@ pre {
 ::-webkit-scrollbar-thumb:hover {
 	background: rgba(157, 165, 183, 0.7);
 } 
+
+
+/* 源代码按钮 */
+.typora-sourceview-on #toggle-sourceview-btn,
+#footer-word-count:hover,
+.ty-show-word-count #footer-word-count {
+    background: #333333;
+}
+
+/* new export menu in setting */
+.export-detail {
+    color: var(--text-color) !important;
+    background: transparent !important;
+  }
+  
+  .export-item.active {
+    background: var(--Mica) !important;
+    border-radius: 6px !important;
+  }
+  
+  .export-detail textarea{
+    background: transparent;
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .export-items-list-control {
+    background: var(--Mica) !important;
+    border-radius: 6px !important;
+  }
+  
+  .icon-dot-3:before {
+    color: var(--text-color);
+    background: var(--Mica) !important;
+    z-index: 1;
+  }
+  
+  .row.text-input select {
+    background: var(--Mica) !important;
+    width: 510px !important;
+  }
+
+  
 

@@ -28,7 +28,6 @@ Industrial Angle, rounded/chamfered for easier assembly. Instead of sharp edges 
 
 - Both provide light and dark mode, and also ink mode. 
 
-
 ## Effect
 
 ### Context

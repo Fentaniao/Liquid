@@ -136,3 +136,11 @@
 .md-fences .code-tooltip {
     background-color: #263238;
 }
+
+
+
+  /* selected text */
+  .CodeMirror-selected,
+  .CodeMirror-selectedtext {
+    background: var(--blue) !important;
+  }
