@@ -38,35 +38,35 @@ A nice theme for Typora, inspired by [Microsoft Fluent Design](https://www.micro
 
 ## Screenshots
 
-Liquid Theme aims to provide an excellent visual effect with Typora in Windows 11. I use the elements of modern UI such as Gradient, Mica, and Rounded Rectangle. [Click here](https://github.com/Fentaniao/Liquid/blob/main/Preview.md) to see the details about Liquid Theme.
+Liquid Theme aims to provide an excellent visual effect with Typora in Windows 11. I use the elements of modern UI such as Gradient, Mica, and Rounded Rectangle.
 
-![preview](/media/theme/liquid/preview.png)
+![preview](./media/theme/liquid/preview.png)
 
 ### Light Mode
 
-![light-preview1](/media/theme/liquid/light-preview1.png)
+![light-preview1](./media/theme/liquid/light-preview1.png)
 
-![light-preview2](/media/theme/liquid/light-preview2.png)
+![light-preview2](./media/theme/liquid/light-preview2.png)
 
-![light-preview3](/media/theme/liquid/light-preview3.png)
+![light-preview3](./media/theme/liquid/light-preview3.png)
 
 ### Dark Mode
 
-![dark-preview1](/media/theme/liquid/dark-preview1.png)
+![dark-preview1](./media/theme/liquid/dark-preview1.png)
 
-![dark-preview2](/media/theme/liquid/dark-preview2.png)
+![dark-preview2](./media/theme/liquid/dark-preview2.png)
 
-![dark-preview3](/media/theme/liquid/dark-preview3.png)
+![dark-preview3](./media/theme/liquid/dark-preview3.png)
 
 ### Ink Mode
 
 Many people use the 2-in-1 PC such as Microsoft Surface, to study and write, or they are just in favor of handwritten fonts, then Ink Mode provides them with a chance to write and read in handwritten fonts in Typora.
 
-![ink-preview1](/media/theme/liquid/ink-preview1.png)
+![ink-preview1](./media/theme/liquid/ink-preview1.png)
 
-![ink-preview2](/media/theme/liquid/ink-preview2.png)
+![ink-preview2](./media/theme/liquid/ink-preview2.png)
 
-![ink-preview3](/media/theme/liquid/ink-preview3.png)
+![ink-preview3](./media/theme/liquid/ink-preview3.png)
 
 ## How to install
 
@@ -79,6 +79,17 @@ Many people use the 2-in-1 PC such as Microsoft Surface, to study and write, or 
 ### Attention
 
 You still need to install "liquid/FZSJ-SGLDXMHJW.TTF" font into your PC for rendering Chinese characters in Ink Mode.
+
+[//]: # (## Example)
+
+[//]: # ()
+[//]: # ([Click here]&#40;https://github.com/Fentaniao/Liquid/blob/main/Preview.md&#41; to see the details about Liquid Theme.)
+
+[//]: # ()
+[//]: # (## Docs)
+
+[//]: # ()
+[//]: # (1)
 
 ## Contact
 
