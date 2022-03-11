@@ -27,21 +27,6 @@
 }
 
 
-@font-face {
-    font-family: 'Ink Free';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Ink Free'), local('inkfree'), url('./liquid/inkfree.ttf') format('ttf');
-}
-
-@font-face {
-    font-family: 'FZSJ-SGLDXMHJW';
-    font-style: normal;
-    font-weight: normal;
-    src: local('方正手迹-时光里的小美好'), local('方正手迹-时光里的小美好 常规'), local('FZSJ-SGLDXMHJW'), url('./liquid/FZSJ-SGLDXMHJW.TTF') format('TTF');
-}
-
-
 :root {
     --base-font: "思源宋体 CN Medium", "Helvetica Neue", "Noto Sans", -apple-system, Ubuntu,
     "Microsoft YaHei", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans",
