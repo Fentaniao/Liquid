@@ -40,7 +40,7 @@ def combine_import(file_path, target_file_path):
 print('Turn to Root directory...')
 os.chdir('..\\')
 root_dir = os.getcwd() + '\\'
-target_dir = root_dir + '\\release\\'
+target_dir = root_dir + '\\..\\dist\\'
 print('<< Root directory: ' + root_dir)
 print('<< Target directory: ' + target_dir)
 
