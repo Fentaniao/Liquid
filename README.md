@@ -90,7 +90,7 @@ You need to install "liquid/FZSJ-SGLDXMHJW.TTF" font into your PC for rendering 
 
 ### Secondary Development Guidance
 
-Turn to [Document](https://github.com/Fentaniao/Liquid/blob/main/doc/Document,md) to find how to make your custom configuration for Liquid Theme.
+Turn to [Document](https://github.com/Fentaniao/Liquid/blob/main/doc/Document.md) to find how to make your custom configuration for Liquid Theme.
 
 ## Contact
 
