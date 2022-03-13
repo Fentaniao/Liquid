@@ -1,10 +1,10 @@
-# Demo of Liquid Theme
+# Demo for Liquid Theme
 
 [TOC]
 
 ## Preface
 
-1
+Open this demo with Typora in your local PC after you install Liquid Theme to check the render effect.
 
 ## Text
 

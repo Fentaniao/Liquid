@@ -25,20 +25,27 @@ typora-copy-images-to: ../../media/theme/Liquid
     <img alt="issues" src="https://img.shields.io/github/issues/fentaniao/liquid"/>
     <img alt="issues closed" src="https://img.shields.io/github/issues-closed/fentaniao/liquid"/>
 </p>
-
-[English Readme](https://github.com/Fentaniao/Liquid/blob/main/README.md) | [中文自述文件](https://github.com/Fentaniao/Liquid/blob/main/README_zh.md)
+[English Readme](https://github.com/Fentaniao/Liquid/blob/main/README.md) • [中文自述文件](https://github.com/Fentaniao/Liquid/blob/main/README_zh.md)
 
 为Typora精心设计的具有出色视觉效果的主题，灵感来源于[Microsoft Fluent Design](https://www.microsoft.com/design/fluent/#/) 和[Purple Theme](https://github.com/hliu202/typora-purple-theme)。 这个主题能够在Windows 11平台上为Typora提供出色的视觉体验。
+
+## 特性
+
+- 颜色交互
+- 渐变
+- 云母材质
+- 圆角
+- 多模式支持
 
 ## 支持
 
 - 系统：Windows 11 和Windows 10。
-- 模式：Light mode，Dark mode和Ink mode。
+- 模式：Light mode，Dark mode，Ink mode和Ink Dark Mode。
 - 语言：英语和中文。
 
 ## Screenshots
 
-Liquid Theme旨在为Windows 11中的Typora提供出色的视觉效果。我使用了现代UI的元素，如渐变、云母和圆角矩形。[点击这里](https://github.com/Fentaniao/Liquid/blob/main/Preview.md)查看关于Liquid主题的更多细节。
+Liquid Theme旨在为Windows 11中的Typora提供出色的视觉效果。我使用了现代UI的元素，如渐变、云母和圆角矩形。这个主题支持中文和英文，并且提供了四个模式——Light mode，Dark mode，Ink mode和Ink Dark Mode。
 
 ![preview](/media/theme/liquid/preview.png)
 
@@ -58,7 +65,7 @@ Liquid Theme旨在为Windows 11中的Typora提供出色的视觉效果。我使�
 
 ![dark-preview3](/media/theme/liquid/dark-preview3.png)
 
-### Ink Mode
+### Ink Mode & Ink Dark Mode
 
 你可能使用像Microsoft Surface这样的二合一电脑来学习和写作，也有可能你只是喜欢手写字体，那么Ink Mode则为你提供了在Typora中使用手写字体来书写和阅读的机会。
 
@@ -75,16 +82,21 @@ Liquid Theme旨在为Windows 11中的Typora提供出色的视觉效果。我使�
 3. 解压**Liquid.zip**到该文件夹中。
 4. 重启Typora。
 5. 在Typora的*主题* 选项中选择Liquid主题。
+6. 打开`Demo.md`查看渲染效果。
 
 ### 注意
 
 为了在Ink Mode下渲染中文字体，你仍需要将"liquid/FZSJ-SGLDXMHJW.TTF"安装到你的PC上。
 
+### 二次开发指南
+
+转到[开发文档](https://github.com/Fentaniao/Liquid/blob/main/doc/Document_zh.md)来了解如何进行二次开发。
+
 ## 联系
 
-作者: Fentaniao
+作者: [Fentaniao](https://github.com/Fentaniao)
 
-邮箱: Fentaniao@gmail.com
+邮箱: fentaniao@gmail.com
 
 ## 许可证
 

@@ -45,7 +45,7 @@ A nice theme for Typora, inspired by [Microsoft Fluent Design](https://www.micro
 
 ## Screenshots
 
-Liquid Theme aims to provide an excellent visual effect with Typora in Windows 11. I use the elements of modern UI such as Gradient, Mica, and Rounded Rectangle. This theme support both English and Chinese, provides 4 modes, Light Mode, Dark Mode, Ink Mode and Ink Dark Mode.
+Liquid Theme aims to provide an excellent visual effect with Typora in Windows 11. I use the elements of modern UI such as Gradient, Mica, and Rounded Rectangle. This theme support both English and Chinese, providing Light Mode, Dark Mode, Ink Mode and Ink Dark Mode.
 
 ![preview](./media/theme/liquid/preview.png)
 
@@ -65,7 +65,7 @@ Liquid Theme aims to provide an excellent visual effect with Typora in Windows 1
 
 ![dark-preview3](/media/theme/liquid/dark-preview3.png)
 
-### Ink Mode
+### Ink Mode & Ink Dark Mode
 
 Many people use the 2-in-1 PC such as Microsoft Surface, to study and write, or they are just in favor of handwritten fonts, then Ink Mode provides them with a chance to write and read in handwritten fonts in Typora.
 
@@ -77,20 +77,20 @@ Many people use the 2-in-1 PC such as Microsoft Surface, to study and write, or 
 
 ## How to install
 
-1. Download the **Liquid.zip** from the [Releases](https://github.com/Fentaniao/Liquid/releases) in [Liquid repository](https://github.com/Fentaniao/Liquid/).
-2. Open Typora setting, in *Preferences*, click on *Appearance*, then on *Open Theme Folder*.
-3. Unzip **Liquid.zip** into the Theme Folder.
+1. Download the `Liquid.zip` from the [Releases](https://github.com/Fentaniao/Liquid/releases) in [Liquid repository](https://github.com/Fentaniao/Liquid/).
+2. Open Typora setting, in **Preferences**, click on **Appearance**, then on **Open Theme Folder**.
+3. Unzip `Liquid.zip` into the Theme Folder.
 4. Restart Typora.
-5. Select the Liquid themes from the *Themes* menu in Typora.
-6. Open Example.md to see local render effect.
+5. Select the Liquid themes from the **Themes** menu in Typora.
+6. Open `Demo.md` to see local render effect.
 
 ### Attention
 
 You need to install "liquid/FZSJ-SGLDXMHJW.TTF" font into your PC for rendering Chinese characters in Ink Mode.
 
-## Docs
+### Secondary Development Guidance
 
-Turn to [Secondary Development Guidance](https://github.com/Fentaniao/Liquid/blob/main/docs/SecondaryDevelopmetGuidance) to find how to make your custom configuration for Liquid Theme.
+Turn to [Document](https://github.com/Fentaniao/Liquid/blob/main/doc/Document,md) to find how to make your custom configuration for Liquid Theme.
 
 ## Contact
 
