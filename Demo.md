@@ -1,0 +1,113 @@
+# Demo of Liquid Theme
+
+[TOC]
+
+## Preface
+
+1
+
+## Text
+
+### Highlight
+
+==This is a context in highlight.==
+
+==这是一段高亮的文字。==
+
+### Bold
+
+**This is a context in Bold.**
+
+**这是一段加粗的文字。**
+
+### Italics
+
+*This is a context in italics.*
+
+*这是一段倾斜的文字。*
+
+### Underline
+
+<u>This is a context in Underline.</u>
+
+<u>这是一段加有下划线的文字。</u>
+
+### Strikethrough
+
+~~This is a context in Underline.~~
+
+~~这是一段加有删除线的文字。~~
+
+### Hyperlink
+
+[Homepage](https://github.com/Fentaniao/Liquid)
+
+[Download](https://github.com/Fentaniao/Liquid/releases)
+
+### Quote
+
+> This is a Quote.
+>
+> This is a Quote, too.
+
+## Code
+
+### Code Block
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello, World!</title>
+    </head>
+    <body>
+        <p>This is an example of a simple HTML page with one paragraph.</p>
+    </body>
+</html>
+```
+
+### Inline Code
+
+This is `print("the inline code")`.
+
+## List and Table
+
+### Task List
+
+- [ ] Undo
+- [x] Done
+
+### Ordered List
+
+1. First
+2. Second
+
+### Unordered List
+
+- Hello, world!
+- Hello, world!
+
+### Table
+
+| Matrix |  1   |  2   |  3   |
+| :----: | :--: | :--: | :--: |
+|   1    |  11  |  12  |  13  |
+|   2    |  21  |  22  |  23  |
+|   3    |  31  |  32  |  33  |
+
+## Math
+
+Only when you enable `markdown extended syntax` in the setting of Typora, you can see the rendering of this module.
+
+### Formula Block
+
+$$
+a x^2 + b x + c = 0
+$$
+
+### Inline Formula
+
+Line: $y=ax+b$.
+
+CO~2~ is a kind of gas in the air.
+

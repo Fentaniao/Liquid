@@ -60,7 +60,7 @@ Liquid Theme旨在为Windows 11中的Typora提供出色的视觉效果。我使�
 
 ### Ink Mode
 
-你使用像Microsoft Surface这样的二合一电脑来学习和写作，也有可能你只是喜欢手写字体，那么Ink Mode则为你提供了在Typora中使用手写字体来书写和阅读的机会。
+你可能使用像Microsoft Surface这样的二合一电脑来学习和写作，也有可能你只是喜欢手写字体，那么Ink Mode则为你提供了在Typora中使用手写字体来书写和阅读的机会。
 
 ![ink-preview1](/media/theme/liquid/ink-preview1.png)
 

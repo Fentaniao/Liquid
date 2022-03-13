@@ -25,77 +25,78 @@ typora-copy-images-to: ../../media/theme/Liquid
     <img alt="issues" src="https://img.shields.io/github/issues/fentaniao/liquid"/>
     <img alt="issues closed" src="https://img.shields.io/github/issues-closed/fentaniao/liquid"/>
 </p>
-
-[English Readme](https://github.com/Fentaniao/Liquid/blob/main/README.md) | [中文自述文件](https://github.com/Fentaniao/Liquid/blob/main/README_zh.md)
+[English Readme](https://github.com/Fentaniao/Liquid/blob/main/README.md) • [中文自述文件](https://github.com/Fentaniao/Liquid/blob/main/README_zh.md)
 
 A nice theme for Typora, inspired by [Microsoft Fluent Design](https://www.microsoft.com/design/fluent/#/) and [Purple Theme](https://github.com/hliu202/typora-purple-theme). This theme provides outstanding visual effects for Windows 11.
 
-## Support list
+## Features
+
+- Colorful Indication
+- Gradient
+- Mica Material
+- Rounded Rectangle
+- Multi-Mode
+
+## Support List
 
 - System: Windows 11 and Windows 10.
-- Mode: Light Mode, Dark mode, and Ink mode.
+- Mode: Light Mode, Dark Mode, Ink Mode and Ink Dark Mode.
 - Language: English and Chinese.
 
 ## Screenshots
 
-Liquid Theme aims to provide an excellent visual effect with Typora in Windows 11. I use the elements of modern UI such as Gradient, Mica, and Rounded Rectangle.
+Liquid Theme aims to provide an excellent visual effect with Typora in Windows 11. I use the elements of modern UI such as Gradient, Mica, and Rounded Rectangle. This theme support both English and Chinese, provides 4 modes, Light Mode, Dark Mode, Ink Mode and Ink Dark Mode.
 
 ![preview](./media/theme/liquid/preview.png)
 
 ### Light Mode
 
-![light-preview1](./media/theme/liquid/light-preview1.png)
+![light-preview1](/media/theme/liquid/light-preview1.png)
 
-![light-preview2](./media/theme/liquid/light-preview2.png)
+![light-preview2](/media/theme/liquid/light-preview2.png)
 
-![light-preview3](./media/theme/liquid/light-preview3.png)
+![light-preview3](/media/theme/liquid/light-preview3.png)
 
 ### Dark Mode
 
-![dark-preview1](./media/theme/liquid/dark-preview1.png)
+![dark-preview1](/media/theme/liquid/dark-preview1.png)
 
-![dark-preview2](./media/theme/liquid/dark-preview2.png)
+![dark-preview2](/media/theme/liquid/dark-preview2.png)
 
-![dark-preview3](./media/theme/liquid/dark-preview3.png)
+![dark-preview3](/media/theme/liquid/dark-preview3.png)
 
 ### Ink Mode
 
 Many people use the 2-in-1 PC such as Microsoft Surface, to study and write, or they are just in favor of handwritten fonts, then Ink Mode provides them with a chance to write and read in handwritten fonts in Typora.
 
-![ink-preview1](./media/theme/liquid/ink-preview1.png)
+![ink-preview1](/media/theme/liquid/ink-preview1.png)
 
-![ink-preview2](./media/theme/liquid/ink-preview2.png)
+![ink-preview2](/media/theme/liquid/ink-preview2.png)
 
-![ink-preview3](./media/theme/liquid/ink-preview3.png)
+![ink-preview3](/media/theme/liquid/ink-preview3.png)
 
 ## How to install
 
 1. Download the **Liquid.zip** from the [Releases](https://github.com/Fentaniao/Liquid/releases) in [Liquid repository](https://github.com/Fentaniao/Liquid/).
 2. Open Typora setting, in *Preferences*, click on *Appearance*, then on *Open Theme Folder*.
-3. Unzip **Liquid.zip** into the folder.
+3. Unzip **Liquid.zip** into the Theme Folder.
 4. Restart Typora.
 5. Select the Liquid themes from the *Themes* menu in Typora.
+6. Open Example.md to see local render effect.
 
 ### Attention
 
-You still need to install "liquid/FZSJ-SGLDXMHJW.TTF" font into your PC for rendering Chinese characters in Ink Mode.
+You need to install "liquid/FZSJ-SGLDXMHJW.TTF" font into your PC for rendering Chinese characters in Ink Mode.
 
-[//]: # (## Example)
+## Docs
 
-[//]: # ()
-[//]: # ([Click here]&#40;https://github.com/Fentaniao/Liquid/blob/main/Preview.md&#41; to see the details about Liquid Theme.)
-
-[//]: # ()
-[//]: # (## Docs)
-
-[//]: # ()
-[//]: # (1)
+Turn to [Secondary Development Guidance](https://github.com/Fentaniao/Liquid/blob/main/docs/SecondaryDevelopmetGuidance) to find how to make your custom configuration for Liquid Theme.
 
 ## Contact
 
-Author: Fentaniao
+Author: [Fentaniao](https://github.com/Fentaniao)
 
-Email: Fentaniao@gmail.com
+Email: fentaniao@gmail.com
 
 ## License
 
