@@ -93,6 +93,7 @@ h6 {
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
+    caret-color: var(--text-color);
 }
 
 h1 {
@@ -147,6 +148,7 @@ a {
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
+    caret-color: var(--text-color);
 }
 
 #write a:hover {
