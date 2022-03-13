@@ -25,6 +25,7 @@ typora-copy-images-to: ../../media/theme/Liquid
     <img alt="issues" src="https://img.shields.io/github/issues/fentaniao/liquid"/>
     <img alt="issues closed" src="https://img.shields.io/github/issues-closed/fentaniao/liquid"/>
 </p>
+
 [English Readme](https://github.com/Fentaniao/Liquid/blob/main/README.md) • [中文自述文件](https://github.com/Fentaniao/Liquid/blob/main/README_zh.md)
 
 为Typora精心设计的具有出色视觉效果的主题，灵感来源于[Microsoft Fluent Design](https://www.microsoft.com/design/fluent/#/) 和[Purple Theme](https://github.com/hliu202/typora-purple-theme)。 这个主题能够在Windows 11平台上为Typora提供出色的视觉体验。
