@@ -9,7 +9,7 @@
     font-family: 'JetBrains Mono';
     font-style: normal;
     font-weight: bold;
-    src: local('JetBrains Mono Bold'), local('JetBrainsMono-bold'), url('./liquid/JetBrainsMono-bold.woff2') format('woff2');
+    src: local('JetBrains Mono Bold'), local('JetBrainsMono-Bold'), url('./liquid/JetBrainsMono-Bold.woff2') format('woff2');
 }
 
 @font-face {

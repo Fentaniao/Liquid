@@ -1,4 +1,11 @@
 @font-face {
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: bold;
+    src: local('JetBrains Mono Regular'), local('JetBrainsMono-Regular'), url('./liquid/JetBrainsMono-Regular.woff2') format('woff2');
+}
+
+@font-face {
     font-family: 'Ink Free';
     font-style: normal;
     font-weight: normal;
@@ -9,7 +16,7 @@
     font-family: 'FZSJ-SGLDXMHJW';
     font-style: normal;
     font-weight: normal;
-    src: local('方正手迹-时光里的小美好'), local('方正手迹-时光里的小美好 常规'), local('FZSJ-SGLDXMHJW'), url('./liquid/FZSJ-SGLDXMHJW.TTF') format('TTF');
+    src: local('方正手迹-时光里的小美好'), local('方正手迹-时光里的小美好 常规'), local('FZSJ-SGLDXMHJW'), url('./liquid/FZSJ-SGLDXMHJW.ttf') format('ttf');
 }
 
 :root {
@@ -652,23 +659,23 @@ h6 {
 }
 
 h1 {
-    font-size: 1.9em;
+    font-size: 1.6em;
 }
 
 h2 {
-    font-size: 1.7em;
+    font-size: 1.4em;
 }
 
 h3 {
-    font-size: 1.7em;
+    font-size: 1.4em;
 }
 
 h4 {
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 h5 {
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 h6 {
